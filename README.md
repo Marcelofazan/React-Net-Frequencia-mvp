@@ -36,7 +36,7 @@ TO anon
 WITH CHECK (bucket_id = 'comprovantes');
 ```
 
-## 🚀 Backend 
+## 📁 Backend 
 
 #### 📋 O que voçê vai ver nesse Projeto
 
@@ -79,7 +79,7 @@ HTTP Request
                           └─► IRegistroRepository   → PostgreSQL
                                 └─► AppDbContext    (Infrastructure/EF Core)
 ```
-## 🌐 Frontend 
+## 📁 Frontend 
 
 #### 📋 O que voçê vai ver nesse Projeto
 
