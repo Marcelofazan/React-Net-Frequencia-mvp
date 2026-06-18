@@ -73,7 +73,7 @@ HTTP Request
                     └─► CommandHandler             (Applicacao)
                           ├─► IStorageService       → Supabase Storage
                           └─► IRegistroRepository   → PostgreSQL
-                                └─► AppDbContext    (Infrastructure/EF Core)
+                                └─► AppDbContext    (InfraEstrutura/EF Core)
 ```
 ## 📁 Frontend 
 
