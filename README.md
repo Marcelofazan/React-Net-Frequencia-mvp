@@ -73,7 +73,7 @@ HTTP Request
   └─► RegistrosController          (API)
         └─► MediatR.Send(Command)
               └─► ValidationBehavior (FluentValidation)
-                    └─► CommandHandler             (Application)
+                    └─► CommandHandler             (Applicacao)
                           ├─► IStorageService       → Supabase Storage
                           └─► IRegistroRepository   → PostgreSQL
                                 └─► AppDbContext    (Infrastructure/EF Core)
