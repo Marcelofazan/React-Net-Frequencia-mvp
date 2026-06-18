@@ -1,4 +1,4 @@
-## 🌐 React-Node-Supabase-Jwt-mvp
+## 🌐 React-Api10-EF-Jwt-Supabase-mvp
 Aplicativode controle de presença em React e C# ASP.NET 10 com banco de dados Supabase.
 
 📋 O que voçê vai ver nesse Projeto
