@@ -1,6 +1,6 @@
 
 ## 🌐 React-Api10-EF-Jwt-Supabase-mvp
-Aplicativo de controle de presença em React e API CQRS com autenticação Jwt em C# ASP.NET 10 com banco de dados Supabase.
+Aplicativo de controle de presença em React e API CQRS com autenticação Jwt e MediatR em C# ASP.NET 10 com banco de dados Supabase.
 
 #### 🎨 Aqui está uma demonstração do projeto
 <img width="800" height="350" alt="Controle_Presenca" src="https://github.com/user-attachments/assets/13a7a3db-e3dc-412f-bb52-01bc602aaa70" />
