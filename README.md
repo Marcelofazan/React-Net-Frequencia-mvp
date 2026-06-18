@@ -14,7 +14,7 @@ Aplicativode controle de presença em React e C# ASP.NET 10 com banco de dados S
 
 #### 📁 Requisitos do Projeto
 
-## Supabase — configuração inicial
+- Supabase — configuração inicial
 
 1- Get connected -> Escolha Direct Connection String -> Selecione Type e Copie a conexão .NET.
 
@@ -30,8 +30,8 @@ Modifique o arquivo **appsettings.Development.json**:
 
 ```bash
 "Supabase": {
-    "Url": "https://eabwsveuwxffvsawdotu.supabase.co",
-    "ServiceKey": "COLE_AQUI_A_SUA_CHAVE_SERVICE_ROLE_SECRET",
+    "Url": "https://[SEU_HOST].supabase.co",
+    "ServiceKey": "[SUA_CHAVE_SECRETA]",
     "Bucket": "comprovantes"
 }
 ```
