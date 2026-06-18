@@ -59,6 +59,13 @@ dotnet run --project ControlePresenca/ControlePresenca.csproj
 ```
 - Link Swagger  **http://localhost:5283/swagger/index.html**
 
+| Camada | Responsabilidade 
+|---|---|---|
+| **Dominio** | Entidades ricas, enums |
+| **Aplicacao** | Casos de uso, interfaces, DTOs | 
+| **InfraEstrutura** | EF Core, repositórios, Supabase Storage | 
+| **API** | Controllers, middleware, DI, Program.cs | 
+
 ## 📁 Frontend 
 
 #### 📋 O que voçê vai ver nesse Projeto
@@ -80,3 +87,27 @@ npm run dev
 ```
 
 O app estará disponível em `http://localhost:5173`.
+
+
+- Separação de responsabilidades
+
+| Tecnologia | Descrição |
+|-----------|------------|
+| **components** | JSX puro, só renderiza |
+| **hooks** | toda a lógica (queries, mutations, estado) |
+| **services** | configuração do axios |
+| **types** | contratos TypeScript |
+
+#### Fluxo de dados
+```
+App.tsx
+  ├─ useRegistros() → TanStack Query → axios → /api/v1/registros
+  ├─ RegistrosFiltros.tsx  (estado local, callback para App)
+  ├─ RegistrosTable.tsx
+  │   ├─ TanStack Table (sort, render)
+  │   ├─ useDeletarRegistro() → mutation
+  │   └─ EditarRegistroDialog.tsx → useAtualizarRegistro()
+  └─ UploadSheet.tsx
+      └─ useCriarRegistro() → mutation (FormData multipart)
+```
+
