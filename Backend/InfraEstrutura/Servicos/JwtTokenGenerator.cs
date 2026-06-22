@@ -12,8 +12,8 @@ namespace InfraEstrutura.Servicos
     {
         private readonly string _key = configuration["Jwt:Key"]
             ?? throw new InvalidOperationException("Jwt:Key não configurado.");
-        private readonly string _issuer = configuration["Jwt:Issuer"] ?? "PointO";
-        private readonly string _audience = configuration["Jwt:Audience"] ?? "PointO";
+        private readonly string _issuer = configuration["Jwt:Issuer"] ?? "ControlePresencaApi";
+        private readonly string _audience = configuration["Jwt:Audience"] ?? "ControlePresencaApp";
         private readonly int _expiraEmMinutos = int.TryParse(configuration["Jwt:ExpiraEmMinutos"], out var min) ? min : 10080;
 
         public string Gerar(Usuario usuario)
