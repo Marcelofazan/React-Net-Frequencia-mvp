@@ -7,7 +7,8 @@ Aplicativo de controle de presença em React e API CQRS com autenticação Jwt e
 
 #### 💬 Requisitos do Projeto
 - Chave Secreta Supabase e criação de Storage Supabase para salvar imagens. 
-
+- Realizar Migrations EntityFramework 
+  
 ## 📁 Backend 
 
 #### 📋 O que voçê vai ver nesse Projeto
