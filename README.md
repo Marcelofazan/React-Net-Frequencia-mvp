@@ -19,6 +19,7 @@ Aplicativo de controle de presença em React e API CQRS com autenticação Jwt e
 | **Fluent Validation** | Biblioteca para regras de validação de forma simples, legível e desacoplada|
 | **JWT** | É um crachá digital usado para identificar usuários e trocar informações de forma segura entre computadores |
 | **Mediatr** | Desacoplar classes, permitindo que diferentes componentes de um sistema se comuniquem através de um ponto central (o mediador)|
+| **Paginacao** | Paginação	Dividir grandes volumes de dados em partes menores (páginas), melhorando o desempenho, evitando timeouts e economia de recursos |
 | **Supabase** | Wrapper (capa facilitadora) para simplificar o desenvolvimento com o banco de dados PostgreSQL  |
 | **Storage Supabase** | Gerenciamento e armazenamento de arquivos de qualquer tipo como imagens, vídeos, PDFs e documentos. |
 
