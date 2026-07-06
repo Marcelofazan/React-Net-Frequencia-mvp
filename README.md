@@ -66,7 +66,7 @@ TO anon
 WITH CHECK (bucket_id = 'comprovantes');
 ```
 
-#### Fluxo de uma requisição
+#### ➡️ Fluxo de uma requisição
 
 ```
 HTTP Request
