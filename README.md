@@ -1,6 +1,6 @@
 
-## 🌐 React19-Frequencia-Api10-EF-Jwt-mvp
-Aplicativo de controle de presença em React e API CQRS com autenticação Jwt e MediatR em C# ASP.NET 10 com banco de dados Supabase.
+## 🌐 React-Frequencia-Api10-EF-Jwt-mvp
+Aplicativo de controle de presença em React 19 e API CQRS com autenticação Jwt e MediatR em C# ASP.NET 10 com banco de dados Supabase.
 
 #### 🎨 Aqui está uma demonstração do projeto
 <img width="700" height="350" alt="Controle_Presenca" src="https://github.com/user-attachments/assets/13a7a3db-e3dc-412f-bb52-01bc602aaa70" />
