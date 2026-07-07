@@ -3,7 +3,7 @@
 Aplicativo de controle de presença em React e API CQRS com autenticação Jwt e MediatR em C# ASP.NET 10 com banco de dados Supabase.
 
 #### 🎨 Aqui está uma demonstração do projeto
-<img width="800" height="350" alt="Controle_Presenca" src="https://github.com/user-attachments/assets/13a7a3db-e3dc-412f-bb52-01bc602aaa70" />
+<img width="700" height="350" alt="Controle_Presenca" src="https://github.com/user-attachments/assets/13a7a3db-e3dc-412f-bb52-01bc602aaa70" />
 
 #### 💬 Requisitos do Projeto
 - Chave Secreta Supabase e criação de Storage Supabase para salvar imagens. 
