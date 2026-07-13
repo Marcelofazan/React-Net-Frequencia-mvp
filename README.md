@@ -6,6 +6,7 @@ Aplicativo de controle de presença em React 19 e API CQRS com autenticação Jw
 <img width="700" height="350" alt="Controle_Presenca" src="https://github.com/user-attachments/assets/13a7a3db-e3dc-412f-bb52-01bc602aaa70" />
 
 #### 💬 Requisitos do Projeto
+- Realizar Migrations EntityFramework .NET
 - Chave Secreta Supabase e criação de Storage Supabase para salvar imagens. 
   
 ## 📁 Backend 
