@@ -15,6 +15,7 @@ Aplicativo de controle de presença em React 19 e API CQRS com autenticação Jw
 
 | Tecnologia | Descrição |
 |-----------|------------|
+| **BCrypt** | Algoritmo de hashing criptográfico utilizado para armazenar senhas de forma segura |
 | **CQRS** | Padrão arquitetural que separa as operações de escrita (comandos) das operações de leitura (consultas) |
 | **CORS** | Mecanismo de segurança implementado no navegador e não uma responsabilidade do frontend ou backend |
 | **Fluent Validation** | Biblioteca para regras de validação de forma simples, legível e desacoplada|
